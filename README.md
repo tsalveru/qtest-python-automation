@@ -1,18 +1,41 @@
 # qtest-python-automation
 
-Python connector for integrating with the qTest Test Management platform.
+Python connector for integrating with the qTest Test Management platform using REST APIs.
 
-Features
+## Features
 - Connects to qTest API
 - Fetches test cases
-- Supports automation integration
-- Demonstrates test data synchronization
+- Demonstrates automation integration with test management tools
+- Supports automated reporting and test data synchronization
 
-Technologies
+## Technologies Used
 - Python
 - REST API
 - Test Management Integration
+- Okta SSO compatible authentication
 
-Note:
-This project is a generalized version of an internal automation solution.
-All client-specific details have been removed.
+## Project Structure
+
+config.py
+Stores API configuration.
+
+qtest_connector.py
+Handles API communication with qTest.
+
+main.py
+Runs the example automation script.
+
+requirements.txt
+Lists required Python packages.
+
+## Installation
+
+pip install -r requirements.txt
+
+## Run the script
+
+python main.py
+
+## Note
+This repository contains a generalized version of an internal automation project.  
+All client-specific details have been removed for confidentiality.
